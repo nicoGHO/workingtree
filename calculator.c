@@ -12,6 +12,10 @@ int multiply(int a, int b) {
     return a * b;
 }
 
+int divide(int a, int b) {
+	return a / b;
+}
+
 int main() {
     int x, y;
     printf("Enter two integers: ");
@@ -20,6 +24,7 @@ int main() {
     printf("Sum: %d\n", add(x, y));
     printf("Difference: %d\n", subtract(x, y));
     printf("Product: %d\n", multiply(x, y));
+	printf("Division: %d\n", divide(x, y));
 
     return 0;
 }
