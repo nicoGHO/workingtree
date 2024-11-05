@@ -12,7 +12,7 @@ int divide(int a, int b) {
 	return a / b;
 }
 
-int mod(int a, b)  {
+int mod2(int a, b)  {
 	return a % b;
 }
 
