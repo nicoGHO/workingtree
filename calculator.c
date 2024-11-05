@@ -12,6 +12,10 @@ int divide(int a, int b) {
 	return a / b;
 }
 
+int mod(int a, b)  {
+	return a % b;
+}
+
 int main() {
     int x, y;
     printf("Enter two integers: ");
